@@ -49,3 +49,6 @@ function tm-rename-window() {
   # But: "it ain't stupid if it works!"
   printf "\033k$window_name\033\\" # http://superuser.com/a/565741
 }
+
+# What the hell was this for again?
+alias tmcp='cat ~/.tmux/SCRATCH_PAD | grep --color=never "panes on" | pbcopy' # stupid trick until you get this mapped
