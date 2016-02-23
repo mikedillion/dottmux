@@ -1,0 +1,2 @@
+ln -sf ~/.tmux/tmux-powerlinerc ~/.tmux-powerlinerc
+ln -sf ~/.tmux/tmux.conf ~/.tmux.conf

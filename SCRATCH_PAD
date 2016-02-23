@@ -1,0 +1,9 @@
+setw synchronize-panes on
+setw synchronize-panes off
+
+# rename session
+C-b $
+tmux rename-session -t $CURRENTNAME $NEWNAME
+
+# break a pane into a new window (duh)
+break-pane
