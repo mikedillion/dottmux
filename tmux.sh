@@ -42,6 +42,7 @@ _tmux_sessions() {
 
 complete -F _tmux_sessions tma
 complete -F _tmux_sessions tms
+complete -F _tmux_sessions tmk
 
 function tm-rename-window() {
   # This is probably really dumb and will never be used.
