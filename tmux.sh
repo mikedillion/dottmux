@@ -21,7 +21,7 @@ alias tms="tmux switch -t"
 alias tmk="tmux kill-session -t"
 
 function tmns() {
-  local here=$(basename $(pwd) | snake_case)
+  local here=$(basename $(pwd)) # | snake_case)
   if [[ $# -eq 1 ]]; then
     TMUX= tmux new-session -s "$1"
   elif [[ $# -eq 2 ]]; then
